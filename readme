@@ -1,0 +1,2 @@
+1、使用maven搭建的简单的thrift的例子,没有使用spring,可以当作demo,或者不使用spring框架项目的一个参考。
+2、模块依赖关系:client模块依赖thrift,app依赖thrift,client调用时,实际调的是app中的实现类,无循环依赖关系
